@@ -6,7 +6,7 @@ Automatically picks a selected hero as soon as possible
 Overwatch's hero selection is first come, first served. It isn't bad by itself as it allows players to quickly switch to adapt to different situations and the enemy team. However, trying out new heroes or playing one hero consistently to get better is almost impossible as someone usually is faster than you by a fraction of a second. That's not really fair. And not fun either. That's why I made this.
 While using Overwatch Hero Picker, please remember that you have a payload to push and a team to help. Maybe it's not a bad idea to switch to a healer once in a while. Looking at you, Genji.
 
-# How to use
+## How to use
 1. Download, extract & run executable
 2. Run Overwatch
 3. Choose a hero via the dropdown
@@ -15,8 +15,14 @@ While using Overwatch Hero Picker, please remember that you have a payload to pu
 6. ?
 7. Profit
 
-# To do
+### Add heroes or use with resolutions other than 1920x1080
+You can easily modify the list of heroes by changing or adding lines in the [Hero List.txt](Hero List.txt) file.
+The number behind the name corresponds to their icon's x-position on screen.
+To find out hero icon's x-positions, you can use pretty much any image editor (even MS Paint works!).
+
+## To do
 - [ ] Make Hotkey changeable using ini file
+- [ ] Allow resolutions other than 1920x1080
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
