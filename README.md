@@ -1,5 +1,5 @@
 # Overwatch Hero Picker
-Automatically picks a selected hero as soon as possible
+Automatically picks a selected hero as soon as possible. Latest update: Patch 1.21.0.1 (Brigitte)
 
 ![](https://user-images.githubusercontent.com/34353377/34181712-984cb57e-e513-11e7-8a69-f80ff3eae86d.jpg)
 
@@ -15,14 +15,10 @@ While using Overwatch Hero Picker, please remember that you have a payload to pu
 6. ?
 7. Profit
 
-### Add heroes or use with resolutions other than 1920x1080
-You can easily modify the list of heroes by changing or adding lines in the [Hero List.txt](Hero List.txt) file.
-The number behind the name corresponds to their icon's x-position on screen.
-To find out hero icon's x-positions, you can use pretty much any image editor (even MS Paint works!).
-
-## To do
-- [ ] Make Hotkey changeable using ini file
-- [ ] Allow resolutions other than 1920x1080
+# Add heroes or use with resolutions other than 1920x1080
+The file [Hero List.txt](Hero List.txt) contains a list of all hero icons and their corresponding x position on screen.
+You can add heroes or correct the position of existing ones after an update or for a different resolution.
+Simply take a screenshot of the hero selection screen and use pretty much any image editor to acquire a certain icon's coordinates.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
