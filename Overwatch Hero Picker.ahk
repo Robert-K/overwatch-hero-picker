@@ -92,7 +92,7 @@ Loop
         
         OutputDebug, % abilities
 
-        if Compare(ToRGB(offense), ToRGB(0xffffff),5) && Compare(ToRGB(defense), ToRGB(0xffffff),5) && Compare(ToRGB(tank), ToRGB(0xffffff),5) && Compare(ToRGB(support), ToRGB(0xffffff),5) &&Compare(ToRGB(abilities), ToRGB(0xFFF19B),50){
+        if Compare(ToRGB(offense), ToRGB(0xffffff),5) && Compare(ToRGB(defense), ToRGB(0xffffff),5) && Compare(ToRGB(tank), ToRGB(0xffffff),5) && Compare(ToRGB(support), ToRGB(0xffffff),5) &&Compare(ToRGB(abilities), ToRGB(0xFFF19B),120){
         MouseClick, left, x, y
         Sleep, 51
         MouseClick, left, 956, 1010
