@@ -19,7 +19,7 @@ Roadhog		:1234
 Winston		:1301
 Zarya		:1360
 Ana		:1444
-Brigitte:	:1510
+Brigitte	:1510
 Lucio		:1570
 Mercy		:1634
 Moira		:1709
