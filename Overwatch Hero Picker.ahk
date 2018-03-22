@@ -38,7 +38,7 @@ IniRead, yContinue, Config.ini, Continue Button, yPosition , 1000
 Gui, Font, s10
 Gui, Add, Text,, Select a hero
 Gui, Add, DropDownList,w85 vElement gAction, %names%
-Gui, Add, Text,,Press F2 to toggle. The selected`nhero will be picked as soon as the`nselection screen appears.`n`n(C) Robert Kossessa 2017
+Gui, Add, Text,,Press F2 to toggle. The selected`nhero will be picked as soon as the`nselection screen appears.`n`n(C) Robert Kossessa 2018
 Gui, Show, w225 h145, Hero Picker
 return
 
