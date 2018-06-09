@@ -1,6 +1,8 @@
 # Overwatch Hero Picker
 Automatically picks a selected hero as soon as possible. Latest update: Patch 1.21.0.1 (Brigitte)
 
+### AutoHotkey is not required to run the executable!
+
 ![](https://user-images.githubusercontent.com/34353377/34181712-984cb57e-e513-11e7-8a69-f80ff3eae86d.jpg)
 
 Overwatch's hero selection is first come, first served. It isn't bad by itself as it allows players to quickly switch to adapt to different situations and the enemy team. However, trying out new heroes or playing one hero consistently to get better is almost impossible as someone usually is faster than you by a fraction of a second. That's not really fair. And not fun either. That's why I made this.
