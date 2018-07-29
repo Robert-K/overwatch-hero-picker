@@ -24,3 +24,5 @@ Simply take a screenshot of the hero selection screen and use pretty much any im
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[![forthebadge](https://forthebadge.com/images/badges/just-plain-nasty.svg)](https://forthebadge.com)
