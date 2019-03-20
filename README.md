@@ -1,5 +1,5 @@
 # Overwatch Hero Picker
-Automatically picks a selected hero as soon as possible. Latest update: Patch 1.21.0.1 (Brigitte)
+Automatically picks a selected hero as soon as possible. Latest update: Patch 1.34.0.1 (Brigitte)
 
 ### AutoHotkey is not required to run the executable!
 
