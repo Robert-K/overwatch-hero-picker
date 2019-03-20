@@ -20,14 +20,13 @@ Loop, Read, Hero List.txt
 for i, element in heroes
     names .= i . "|"
 
-IniRead, y, Config.ini, Hero Icons, yPosition , 888
+IniRead, y, Config.ini, Hero Icons, yPosition , 916
 
-IniRead, yRoles, Config.ini, Role Icons, yPosition , 832
+IniRead, yRoles, Config.ini, Role Icons, yPosition , 853
 
-IniRead, xOffense, Config.ini, Offense Icons, xPosition , 112
-IniRead, xDefense, Config.ini, Defense Icons, xPosition , 641
-IniRead, xTank, Config.ini, Tank Icons, xPosition , 1044
-IniRead, xSupport, Config.ini, Support Icons, xPosition , 1446
+IniRead, xTank, Config.ini, Tank Icon, xPosition , 112
+IniRead, xDamage, Config.ini, Damage Icon, xPosition , 536
+IniRead, xSupport, Config.ini, Support Icon, xPosition , 1481
 
 IniRead, xAbilities, Config.ini, Abilities Button, xPosition , 1815
 IniRead, yAbilities, Config.ini, Abilities Button, yPosition , 120
@@ -83,16 +82,18 @@ Loop
     
     IfWinActive, Overwatch
     {
-        PixelGetColor, offense, xOffense, yRoles
-        PixelGetColor, defense, xDefense, yRoles
         PixelGetColor, tank, xTank, yRoles
+        PixelGetColor, damage, xDamage, yRoles
         PixelGetColor, support, xSupport, yRoles
         
         PixelGetColor, abilities, xAbilities, yAbilities
-        
-        OutputDebug, % abilities
 
-        if Compare(ToRGB(offense), ToRGB(0xffffff),5) && Compare(ToRGB(defense), ToRGB(0xffffff),5) && Compare(ToRGB(tank), ToRGB(0xffffff),5) && Compare(ToRGB(support), ToRGB(0xffffff),5) &&Compare(ToRGB(abilities), ToRGB(0xFFF19B),120){
+        OutputDebug, Tank: %tank%
+        OutputDebug, Damage: %damage%
+        OutputDebug, Support: %support%
+        OutputDebug, Abilities: %abilities%
+
+        if Compare(ToRGB(tank), ToRGB(0xffffff),10) && Compare(ToRGB(damage), ToRGB(0xffffff),10) && Compare(ToRGB(support), ToRGB(0xffffff),10) && Compare(ToRGB(abilities), ToRGB(0xFFF19B),120){
         MouseClick, left, x, y
         Sleep, 51
         MouseClick, left, 956, 1010
